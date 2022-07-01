@@ -1,0 +1,6 @@
+framework module DPUI {
+  umbrella header "DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h"
+
+  export *
+  module * { export * }
+}

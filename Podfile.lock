@@ -1,0 +1,28 @@
+PODS:
+  - DPUI/Controls/ImageLayer (1.0)
+  - DPUI/Controls/PalaceGridView (1.0):
+    - DPUI/Controls/ImageLayer
+  - DPUI/Extensions (1.0):
+    - DPUI/Extensions/Namespace (= 1.0)
+    - DPUI/Extensions/VisiblePage (= 1.0)
+  - DPUI/Extensions/Namespace (1.0)
+  - DPUI/Extensions/VisiblePage (1.0):
+    - DPUI/Extensions/Namespace
+
+DEPENDENCIES:
+  - DPUI/Controls/ImageLayer (from `./`)
+  - DPUI/Controls/PalaceGridView (from `./`)
+  - DPUI/Extensions (from `./`)
+  - DPUI/Extensions/Namespace (from `./`)
+  - DPUI/Extensions/VisiblePage (from `./`)
+
+EXTERNAL SOURCES:
+  DPUI:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  DPUI: a7073c688c0873a9bd58377ea23be1d0bce4219e
+
+PODFILE CHECKSUM: 1608bff7c9baf0b9348ee02926bebffbfc5a1e5d
+
+COCOAPODS: 1.11.3

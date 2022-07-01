@@ -1,0 +1,6 @@
+framework module DPUI {
+  umbrella header "DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h"
+
+  export *
+  module * { export * }
+}
