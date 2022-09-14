@@ -7,9 +7,15 @@
 
 import UIKit
 
+// MARK: - VisiblePageProvider
+
+/// 可见页提供者
+public protocol VisiblePageProvider {
+    var dpuiVisiblePage: UIViewController? { get }
+}
+
 // MARK: - Extensions where Base: UIViewController
 
-extension UIViewController: ExtensionsProvider {}
 extension Extensions where Base: UIViewController {
     
     /// 可见页面
@@ -19,14 +25,15 @@ extension Extensions where Base: UIViewController {
             return presentedViewController.dpui.visiblePage
         }
         
-        if let nav = base as? UINavigationController,
-            let visibleViewController = nav.visibleViewController {
-            return visibleViewController.dpui.visiblePage
+        if let visiblePageProvider = base as? VisiblePageProvider {
+            return visiblePageProvider.dpuiVisiblePage
         }
         
-        if let tab = base as? UITabBarController,
-           let selectedViewController = tab.selectedViewController {
-            return selectedViewController.dpui.visiblePage
+        for child in base.children {
+            guard let childVisiblePage = child.dpui.visiblePage else {
+                continue
+            }
+            return childVisiblePage
         }
         
         if base.isViewLoaded && base.view.isHidden == false && base.view.alpha > 0 {
@@ -39,7 +46,6 @@ extension Extensions where Base: UIViewController {
 
 // MARK: - Extensions where Base: UIApplication
 
-extension UIApplication: ExtensionsProvider {}
 extension Extensions where Base: UIApplication {
         
     /// 前台激活的的Scene
@@ -52,7 +58,7 @@ extension Extensions where Base: UIApplication {
             return scene
         }
         
-        return nil
+        return base.connectedScenes.first
     }
     
     /// 可见窗口
@@ -62,6 +68,11 @@ extension Extensions where Base: UIApplication {
         }
         
         let windows = windowScene.windows.sorted(by: { $0.windowLevel >= $1.windowLevel })
+
+        if let keyWindow = windows.first(where: { $0.isKeyWindow }) {
+            return keyWindow
+        }
+        
         guard let visibleWindow = windows.first(where: { $0.isHidden == false }) else {
             return nil
         }
@@ -69,9 +80,45 @@ extension Extensions where Base: UIApplication {
         return visibleWindow
     }
     
+    /// 主窗口
+    public var keyWindow: UIWindow? {
+        guard let windowScene = foregroundActiveScene as? UIWindowScene else {
+            return nil
+        }
+        
+        return windowScene.windows.first(where: { $0.isKeyWindow })
+    }
+    
+    /// 所有的窗口
+    public var windows: [UIWindow]? {
+        guard let windowScene = foregroundActiveScene as? UIWindowScene else {
+            return nil
+        }
+        
+        return windowScene.windows
+    }
+    
     /// 可见页面
     public var visiblePage: UIViewController? {
         visibleWindow?.rootViewController?.dpui.visiblePage
+    }
+}
+
+// MARK: - UITabBarController: VisiblePageProvider
+
+extension UITabBarController: VisiblePageProvider {
+    
+    public var dpuiVisiblePage: UIViewController? {
+        return selectedViewController?.dpui.visiblePage
+    }
+}
+
+// MARK: - UINavigationController: VisiblePageProvider
+
+extension UINavigationController: VisiblePageProvider {
+    
+    public var dpuiVisiblePage: UIViewController? {
+        return visibleViewController?.dpui.visiblePage
     }
 }
 
@@ -89,19 +136,19 @@ extension UIApplication {
     
     /// 前台激活的的Scene
     @objc(dpui_foregroundActiveScene)
-    var ___objc_foregroundActiveScene: UIScene? {
+    public var ___objc_foregroundActiveScene: UIScene? {
         dpui.foregroundActiveScene
     }
     
     /// 可见窗口
     @objc(dpui_visibleWindow)
-    var ___objc_visibleWindow: UIWindow? {
+    public var ___objc_visibleWindow: UIWindow? {
         dpui.visibleWindow
     }
     
     /// 可见页面
     @objc(dpui_visiblePage)
-    var ___objc_visiblePage: UIViewController? {
+    public var ___objc_visiblePage: UIViewController? {
         dpui.visiblePage
     }
 }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 /// 扩展
 public struct Extensions<Base> {
@@ -16,9 +17,6 @@ public struct Extensions<Base> {
         self.base = base
     }
 }
-
-extension Extensions: Equatable where Base: Equatable {}
-extension Extensions: Hashable where Base: Hashable {}
 
 /// 扩展提供者
 public protocol ExtensionsProvider {}
@@ -34,3 +32,10 @@ extension ExtensionsProvider {
         return Extensions<Self>.self
     }
 }
+
+extension Extensions: Equatable where Base: Equatable {}
+extension Extensions: Hashable where Base: Hashable {}
+
+extension UIApplication: ExtensionsProvider {}
+extension UIViewController: ExtensionsProvider {}
+extension UIView: ExtensionsProvider {}

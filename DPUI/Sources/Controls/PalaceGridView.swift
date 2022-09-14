@@ -208,7 +208,7 @@ extension PalaceGridView {
         }
         
         /// 单元格尺寸
-        private var cellSize: CGSize {
+        public var cellSize: CGSize {
             switch category {
             case let .singleCell(maxSize):
                 return maxSize

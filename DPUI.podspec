@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name          = "DPUI"
-    spec.version       = "1.0"
+    spec.version       = "1.1"
     spec.summary       = "总结的UI开发套件，主要包含控件、扩展、工具"
     spec.description   = <<-DESC
                          总结的UI开发套件，主要包含控件、扩展、工具，用于积累代码，提高开发效率
@@ -24,6 +24,12 @@ Pod::Spec.new do |spec|
             vs.source_files = "DPUI/Sources/Extensions/VisiblePage.swift"
 
             vs.dependency "DPUI/Extensions/Namespace"
+        end
+
+        es.subspec "ChildPage" do |cs|
+            cs.source_files = "DPUI/Sources/Extensions/ChildPage.swift"
+
+            cs.dependency "DPUI/Extensions/Namespace"
         end
     end
 
