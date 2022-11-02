@@ -1,12 +1,15 @@
 PODS:
-  - DPUI/Controls/ImageLayer (1.0)
-  - DPUI/Controls/PalaceGridView (1.0):
+  - DPUI/Controls/ImageLayer (1.1.1)
+  - DPUI/Controls/PalaceGridView (1.1.1):
     - DPUI/Controls/ImageLayer
-  - DPUI/Extensions (1.0):
-    - DPUI/Extensions/Namespace (= 1.0)
-    - DPUI/Extensions/VisiblePage (= 1.0)
-  - DPUI/Extensions/Namespace (1.0)
-  - DPUI/Extensions/VisiblePage (1.0):
+  - DPUI/Extensions (1.1.1):
+    - DPUI/Extensions/ChildPage (= 1.1.1)
+    - DPUI/Extensions/Namespace (= 1.1.1)
+    - DPUI/Extensions/VisiblePage (= 1.1.1)
+  - DPUI/Extensions/ChildPage (1.1.1):
+    - DPUI/Extensions/Namespace
+  - DPUI/Extensions/Namespace (1.1.1)
+  - DPUI/Extensions/VisiblePage (1.1.1):
     - DPUI/Extensions/Namespace
 
 DEPENDENCIES:
@@ -21,7 +24,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  DPUI: a7073c688c0873a9bd58377ea23be1d0bce4219e
+  DPUI: 404fa7919eb0827942381de9b3f94f206829b0a4
 
 PODFILE CHECKSUM: 1608bff7c9baf0b9348ee02926bebffbfc5a1e5d
 

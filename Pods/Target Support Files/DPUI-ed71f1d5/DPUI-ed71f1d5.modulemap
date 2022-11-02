@@ -1,5 +1,5 @@
 framework module DPUI {
-  umbrella header "DPUI-e83d29ce-umbrella.h"
+  umbrella header "DPUI-ed71f1d5-umbrella.h"
 
   export *
   module * { export * }

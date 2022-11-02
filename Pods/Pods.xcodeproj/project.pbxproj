@@ -7,48 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FB7B339DFA0BC3006A7ADFAB7088B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1533298CCF95D18ADA0B85137521B323 /* Pods-DPUIControlsExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9849B54B0C043BC62955838875238DA8 /* Pods-DPUIControlsExample-dummy.m */; };
-		221FF96A4DDBC970E09D29514165AE97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC14FB8BF29A8FB79D4836701AE127B /* Extensions.swift */; };
+		2E205B8C9EF80C5778291E9F373A021A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3AFEF921A2CB8658DE663DB9DBD62D73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3EED7158464B3A2163B6CDE1CBEAF6ED /* VisiblePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E0A7A3041DFF4904C1901335FFD4CD /* VisiblePage.swift */; };
 		4272B64DAB636BDA108B6588F2E1912D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4B2C13EC8BF2838ACBE2A51A58D3BE93 /* VisiblePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D949DB87DA3317DFBB7F87E060A9E /* VisiblePage.swift */; };
-		58A0C80AEA728089EA5585858A26D5EB /* DPUI-e83d29ce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C30B9B964D74B3934658106E6582435 /* DPUI-e83d29ce-dummy.m */; };
-		62B0B0E97572628EDAE9D2A8C3D17CFC /* PalaceGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317C32F6B27EC8EB074331D0E4871BAC /* PalaceGridView.swift */; };
-		854746AF8142FBFCF3D3B4FED328C428 /* VisiblePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D949DB87DA3317DFBB7F87E060A9E /* VisiblePage.swift */; };
-		85A5E6E7C52BF1AB81671A9915698A05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8630E5BB1B9B55C2BFBAD7F4A9656976 /* DPUI-e83d29ce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B11F3C01ABAF5DC0F3C71CD394489BC /* DPUI-e83d29ce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95F1D39229D4FC5258EA67F7B0EE7D68 /* Pods-DPUIExtensionsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F568AF7EE9D6B16C45D5823CC8D596A9 /* Pods-DPUIExtensionsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B2C13EC8BF2838ACBE2A51A58D3BE93 /* VisiblePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E0A7A3041DFF4904C1901335FFD4CD /* VisiblePage.swift */; };
+		529C2227C3CB17D2DA50CB39586D4A72 /* Pods-DPUIExtensionsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CC382142D96C8EE046B1DE4B166D0B /* Pods-DPUIExtensionsTests-dummy.m */; };
+		56761FD935211F765AF99607D3E0B9DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F782119E63523375E8E4D85B384E28 /* Extensions.swift */; };
+		62B0B0E97572628EDAE9D2A8C3D17CFC /* PalaceGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163C0A76F8B718303575643E6C0A86EA /* PalaceGridView.swift */; };
+		71C937AC46E6A82977FDCC15FF380F04 /* DPUI-ed71f1d5-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 174FDBAA6E9114F3D953D088008561E9 /* DPUI-ed71f1d5-dummy.m */; };
 		9F62E536278949EBF2C7DD6C53727E6D /* Pods-DPUIExtensionsExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 405D1AB2B0BAEBC1A563F4049F0B0068 /* Pods-DPUIExtensionsExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A10C46AAD7FFBC15A1F3209F70E4C9E2 /* Pods-DPUIControlsExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A01202BC5B496C0A5B69CBBC341C54D8 /* Pods-DPUIControlsExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA1CD84E3246E6656BAFB38BE9AA0E81 /* ImageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020460A128F528416CC79ED8A8B53D00 /* ImageLayer.swift */; };
-		C4471C6F296764FEDA70FD802EDC79F6 /* Pods-DPUIExtensionsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CC382142D96C8EE046B1DE4B166D0B /* Pods-DPUIExtensionsTests-dummy.m */; };
-		C81AE3CF9E167289C45A62C58CF0EA17 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285EDF2277F9E6D9F2E16A0BD3DCCCC /* DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m */; };
+		AA1CD84E3246E6656BAFB38BE9AA0E81 /* ImageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4728639E37768154B459347317069CBE /* ImageLayer.swift */; };
+		B3CC16EBD93A7AAF6414E6C03E10AD7D /* Pods-DPUIExtensionsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F568AF7EE9D6B16C45D5823CC8D596A9 /* Pods-DPUIExtensionsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C81AE3CF9E167289C45A62C58CF0EA17 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97005469AFDC464108A1B7593BA6E42E /* DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m */; };
 		CC3BED9D378EEEC1B743AC90C0C55C16 /* Pods-DPUIExtensionsExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 592133C5D700373109BF561946D0D914 /* Pods-DPUIExtensionsExample-dummy.m */; };
+		D04ACB319657B9474155D98187946970 /* DPUI-ed71f1d5-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29522B73D78F65D01218921CB04DC812 /* DPUI-ed71f1d5-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD083A90503D2B2D0FAD64F6F374E5F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DF20AE54EB1CCF2FA8F844561F89D036 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B648ED84B451E4A5E465B815A71516 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF20AE54EB1CCF2FA8F844561F89D036 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AFB012F93705169992A23C66076F61 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFD250648F1228999D42206CD7CC0F56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E153DF8F865E25BE19B7EB63B7B1F8DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E5EB55CCBE7B74ADED38426B642BF8F1 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D110FA6A4419E4BFB78073F6D13DB474 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8EDD2FCE070FC9F30C8B534576B4930 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC14FB8BF29A8FB79D4836701AE127B /* Extensions.swift */; };
-		F968F91C3B9C5496A5FE6CAF73DFB1CE /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9090AA073E31DE527DC5452E99C997 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-dummy.m */; };
+		E5EB55CCBE7B74ADED38426B642BF8F1 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD77CC0A0C9C46CD160B1CEE0919DC8 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8EDD2FCE070FC9F30C8B534576B4930 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F782119E63523375E8E4D85B384E28 /* Extensions.swift */; };
+		ED836ACA173F29E737B7544BBECB94AE /* ChildPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6BD9B4F2F9A7FF238B58FCFC28565 /* ChildPage.swift */; };
+		F968F91C3B9C5496A5FE6CAF73DFB1CE /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9681D1CF226F3AE5BE5D213111BA21C /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52C40E6D1261279B8684A9A0CB70F455 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86B77A5B3D12124FAED1B0C773BBDBCC;
-			remoteInfo = "DPUI-e83d29ce";
-		};
-		C341E2166E2122B05B9D8E56635D7B3C /* PBXContainerItemProxy */ = {
+		21EBAE432D3F5E377CAF0FE9EC8B3297 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F9FEFCF9CDFCA1088B68F70D74A112AB;
 			remoteInfo = "DPUI-Controls_ImageLayer-Controls_PalaceGridView";
 		};
-		EC620E3A185B81C05A20BCFDB303D61F /* PBXContainerItemProxy */ = {
+		5359B21AFB9521E12AC48DA75E662FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B514085F797854D5D5E6899D3D9EE6;
+			remoteInfo = "DPUI-ed71f1d5";
+		};
+		6AAA9D252F57C7CF1F1AA6240B77CDA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -58,80 +59,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020460A128F528416CC79ED8A8B53D00 /* ImageLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLayer.swift; path = DPUI/Sources/Controls/ImageLayer.swift; sourceTree = "<group>"; };
-		0285EDF2277F9E6D9F2E16A0BD3DCCCC /* DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m"; sourceTree = "<group>"; };
-		0CE90EA0BDB536038547B6F2BF671D5A /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView.release.xcconfig"; sourceTree = "<group>"; };
+		0C18A96821079A1BD8EBE5E9CC986BB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		123A3A237A19EB8F2B92E82C607AD6F5 /* Pods-DPUIExtensionsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPUIExtensionsExample.release.xcconfig"; sourceTree = "<group>"; };
+		163C0A76F8B718303575643E6C0A86EA /* PalaceGridView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PalaceGridView.swift; path = DPUI/Sources/Controls/PalaceGridView.swift; sourceTree = "<group>"; };
 		16CC382142D96C8EE046B1DE4B166D0B /* Pods-DPUIExtensionsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPUIExtensionsTests-dummy.m"; sourceTree = "<group>"; };
+		174FDBAA6E9114F3D953D088008561E9 /* DPUI-ed71f1d5-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DPUI-ed71f1d5-dummy.m"; path = "../DPUI-ed71f1d5/DPUI-ed71f1d5-dummy.m"; sourceTree = "<group>"; };
+		205C3C4775BF74A999B7541493D7D6A6 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage-prefix.pch"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage-prefix.pch"; sourceTree = "<group>"; };
 		21A138715CC5CE75BD23D97C61665B58 /* Pods-DPUIExtensionsExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPUIExtensionsExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		2778AFDD1F478E8F18C7607192CCEABA /* DPUI-Extensions_Namespace-Extensions_VisiblePage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage.modulemap"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage.modulemap"; sourceTree = "<group>"; };
-		2B11F3C01ABAF5DC0F3C71CD394489BC /* DPUI-e83d29ce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPUI-e83d29ce-umbrella.h"; path = "../DPUI-e83d29ce/DPUI-e83d29ce-umbrella.h"; sourceTree = "<group>"; };
+		26BA282A022D48A7E6929660A4FDED26 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView.modulemap"; sourceTree = "<group>"; };
+		29522B73D78F65D01218921CB04DC812 /* DPUI-ed71f1d5-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPUI-ed71f1d5-umbrella.h"; path = "../DPUI-ed71f1d5/DPUI-ed71f1d5-umbrella.h"; sourceTree = "<group>"; };
 		2C4C7CF15E06A91CCC952D6D824119DF /* Pods-DPUIExtensionsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPUIExtensionsTests-frameworks.sh"; sourceTree = "<group>"; };
-		317C32F6B27EC8EB074331D0E4871BAC /* PalaceGridView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PalaceGridView.swift; path = DPUI/Sources/Controls/PalaceGridView.swift; sourceTree = "<group>"; };
+		2ECC8866B3EAC2239ECAF9A486E744BA /* DPUI-ed71f1d5-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPUI-ed71f1d5-prefix.pch"; path = "../DPUI-ed71f1d5/DPUI-ed71f1d5-prefix.pch"; sourceTree = "<group>"; };
 		33B4054F1F323A6F886E0729A410712C /* Pods-DPUIExtensionsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPUIExtensionsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3877A06D10CC9E9D78CA59FB85CE7F49 /* DPUI-ed71f1d5-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "DPUI-ed71f1d5-Info.plist"; path = "../DPUI-ed71f1d5/DPUI-ed71f1d5-Info.plist"; sourceTree = "<group>"; };
+		39E0A7A3041DFF4904C1901335FFD4CD /* VisiblePage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisiblePage.swift; path = DPUI/Sources/Extensions/VisiblePage.swift; sourceTree = "<group>"; };
 		405D1AB2B0BAEBC1A563F4049F0B0068 /* Pods-DPUIExtensionsExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPUIExtensionsExample-umbrella.h"; sourceTree = "<group>"; };
 		43E17B97E4FD159F9D9E79FBE3D10074 /* Pods-DPUIControlsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPUIControlsExample.debug.xcconfig"; sourceTree = "<group>"; };
-		44D2A547235F69165D4EF813B7C332D6 /* DPUI-e83d29ce-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPUI-e83d29ce-prefix.pch"; path = "../DPUI-e83d29ce/DPUI-e83d29ce-prefix.pch"; sourceTree = "<group>"; };
+		44290819BED82BFFA8855595AEBBDB51 /* DPUI-ed71f1d5 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "DPUI-ed71f1d5"; path = DPUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D54A877D42597ED53690BF0E40511B /* DPUI-ed71f1d5.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "DPUI-ed71f1d5.modulemap"; path = "../DPUI-ed71f1d5/DPUI-ed71f1d5.modulemap"; sourceTree = "<group>"; };
+		4728639E37768154B459347317069CBE /* ImageLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLayer.swift; path = DPUI/Sources/Controls/ImageLayer.swift; sourceTree = "<group>"; };
 		49BD32116AF3CE945D185BD9B5A7635E /* Pods-DPUIControlsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPUIControlsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A0B45627E20E628F43E57D92F1F4F28 /* DPUI-e83d29ce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "DPUI-e83d29ce.modulemap"; path = "../DPUI-e83d29ce/DPUI-e83d29ce.modulemap"; sourceTree = "<group>"; };
-		4C30B9B964D74B3934658106E6582435 /* DPUI-e83d29ce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DPUI-e83d29ce-dummy.m"; path = "../DPUI-e83d29ce/DPUI-e83d29ce-dummy.m"; sourceTree = "<group>"; };
-		4CEC026EEE08A473858A759A39C5E81C /* DPUI-Extensions_Namespace-Extensions_VisiblePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage.release.xcconfig"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage.release.xcconfig"; sourceTree = "<group>"; };
+		4B8730103563A2C5E628007267D19EC6 /* VisiblePage.xmind */ = {isa = PBXFileReference; includeInIndex = 1; name = VisiblePage.xmind; path = Docs/VisiblePage.xmind; sourceTree = "<group>"; };
 		4D2A66064B7701DE8953DA694C1490DE /* Pods-DPUIExtensionsExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPUIExtensionsExample-Info.plist"; sourceTree = "<group>"; };
+		4D3E41700980F3F371AA83273BEF9F2C /* DPUI-Extensions_Namespace-Extensions_VisiblePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage.release.xcconfig"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage.release.xcconfig"; sourceTree = "<group>"; };
+		50E9C4088061C573A4B766BDDEA3C965 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView.release.xcconfig"; sourceTree = "<group>"; };
+		52229F92F0ADC6D6E9EC93948C4D4322 /* DPUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DPUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		592133C5D700373109BF561946D0D914 /* Pods-DPUIExtensionsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPUIExtensionsExample-dummy.m"; sourceTree = "<group>"; };
 		67BAB243E45F70933ACDFDC7F6240EFC /* Pods-DPUIControlsExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DPUIControlsExample"; path = Pods_DPUIControlsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C1DAAB5708516EAC01823399599E993 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView.debug.xcconfig"; sourceTree = "<group>"; };
+		6CF2D73DD25A5E4782EC75EBA6984EF1 /* UIKit呈现页面的方式.xmind */ = {isa = PBXFileReference; includeInIndex = 1; name = "UIKit呈现页面的方式.xmind"; path = "Docs/UIKit呈现页面的方式.xmind"; sourceTree = "<group>"; };
+		70418444C609A93163C58705F1349FCE /* DPUI-Extensions_Namespace-Extensions_VisiblePage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage-Info.plist"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage-Info.plist"; sourceTree = "<group>"; };
 		70F0A60002B70D6F1FCB590296A3844D /* Pods-DPUIControlsExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPUIControlsExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		727993CB290E4FF47D771F447970F190 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage-prefix.pch"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage-prefix.pch"; sourceTree = "<group>"; };
 		72D8248CBC5CCA9128FF7641B564F7D0 /* Pods-DPUIExtensionsExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DPUIExtensionsExample"; path = Pods_DPUIExtensionsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74AB68579C8464EB4B900EB581D9D244 /* Pods-DPUIControlsExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPUIControlsExample-Info.plist"; sourceTree = "<group>"; };
+		759CB66E4CA43F41479D83B6F9B8EF63 /* DPUI.xmind */ = {isa = PBXFileReference; includeInIndex = 1; name = DPUI.xmind; path = Docs/DPUI.xmind; sourceTree = "<group>"; };
+		75AFB012F93705169992A23C66076F61 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h"; sourceTree = "<group>"; };
 		77421FFA799A67E3B10134BAA450725F /* Pods-DPUIExtensionsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPUIExtensionsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		79E6BD9B4F2F9A7FF238B58FCFC28565 /* ChildPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChildPage.swift; path = DPUI/Sources/Extensions/ChildPage.swift; sourceTree = "<group>"; };
 		8166A7C382B5A002AB56B161121F4805 /* Pods-DPUIExtensionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPUIExtensionsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		842A8D7FD4A3C79DAC5C6AF298C572EC /* Pods-DPUIExtensionsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPUIExtensionsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		845E4CFDF0F22ADBA7E86BE0D3AE4EBC /* DPUI-e83d29ce */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "DPUI-e83d29ce"; path = DPUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EAB784BA060BBF5605C5165545D6C19 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView.modulemap"; sourceTree = "<group>"; };
+		8DC621A6465E3D35A6D66C7E40AA94E4 /* DPUI-ed71f1d5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DPUI-ed71f1d5.release.xcconfig"; path = "../DPUI-ed71f1d5/DPUI-ed71f1d5.release.xcconfig"; sourceTree = "<group>"; };
+		97005469AFDC464108A1B7593BA6E42E /* DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m"; sourceTree = "<group>"; };
 		9849B54B0C043BC62955838875238DA8 /* Pods-DPUIControlsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPUIControlsExample-dummy.m"; sourceTree = "<group>"; };
 		9A6F4AB888CAD66580B3CAD9BE9F9266 /* Pods-DPUIControlsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPUIControlsExample.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A01202BC5B496C0A5B69CBBC341C54D8 /* Pods-DPUIControlsExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPUIControlsExample-umbrella.h"; sourceTree = "<group>"; };
-		AACF23643D12E2EF26E19D964F28E20D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		ADE0D1AB27469639F176559F5F05D06B /* DPUI-e83d29ce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DPUI-e83d29ce.release.xcconfig"; path = "../DPUI-e83d29ce/DPUI-e83d29ce.release.xcconfig"; sourceTree = "<group>"; };
+		AC2657A62C7686087EED52FF16A73993 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView.debug.xcconfig"; sourceTree = "<group>"; };
 		BB5B8766B5DB92860B9FE3ABEBD9B8DD /* Pods-DPUIExtensionsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPUIExtensionsTests-Info.plist"; sourceTree = "<group>"; };
 		BC93BA1EB87BE6FBE3482EF3D7DB8AB6 /* Pods-DPUIExtensionsTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DPUIExtensionsTests"; path = Pods_DPUIExtensionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD7270FD0FEE4CC461FF1314B98F247 /* Pods-DPUIExtensionsExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPUIExtensionsExample-frameworks.sh"; sourceTree = "<group>"; };
-		C0E48C26A08749634862B805A0B362C8 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView-prefix.pch"; sourceTree = "<group>"; };
-		C3870F0D73FC3309BAD83AD6A62E7890 /* DPUI-e83d29ce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "DPUI-e83d29ce-Info.plist"; path = "../DPUI-e83d29ce/DPUI-e83d29ce-Info.plist"; sourceTree = "<group>"; };
+		BD7A9D77315F8BEAB49D44FD7D022DC8 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView-prefix.pch"; sourceTree = "<group>"; };
 		C44B3597D4925986D63B0558E9F88B84 /* Pods-DPUIExtensionsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPUIExtensionsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C5607AD076F291C74D4235CF0FE4B5B8 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage-Info.plist"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage-Info.plist"; sourceTree = "<group>"; };
-		C98D949DB87DA3317DFBB7F87E060A9E /* VisiblePage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisiblePage.swift; path = DPUI/Sources/Extensions/VisiblePage.swift; sourceTree = "<group>"; };
+		CAD77CC0A0C9C46CD160B1CEE0919DC8 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h"; sourceTree = "<group>"; };
 		CBC75769F476AA131EFC01004456F23C /* Pods-DPUIExtensionsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DPUIExtensionsTests.modulemap"; sourceTree = "<group>"; };
 		D0A103EA93FFB6F4787065F6957688DA /* DPUI-Extensions_Namespace-Extensions_VisiblePage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage"; path = DPUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D110FA6A4419E4BFB78073F6D13DB474 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h"; sourceTree = "<group>"; };
 		D1C403E273CC850C4230767BAB159E6A /* Pods-DPUIExtensionsExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DPUIExtensionsExample.modulemap"; sourceTree = "<group>"; };
+		D1F782119E63523375E8E4D85B384E28 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = DPUI/Sources/Extensions/Extensions.swift; sourceTree = "<group>"; };
 		D78AD2AEB9C6D560DD0FB5BFF2C7005A /* Pods-DPUIControlsExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DPUIControlsExample.modulemap"; sourceTree = "<group>"; };
-		DAC14FB8BF29A8FB79D4836701AE127B /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = DPUI/Sources/Extensions/Extensions.swift; sourceTree = "<group>"; };
-		DD9090AA073E31DE527DC5452E99C997 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView-dummy.m"; sourceTree = "<group>"; };
-		DF2E20D25A5F7AC761FD1AD39EB91036 /* DPUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DPUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E0B648ED84B451E4A5E465B815A71516 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h"; sourceTree = "<group>"; };
-		E2675525332B36798D7EA4BC143A54FE /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView-Info.plist"; sourceTree = "<group>"; };
-		E65F6405416C8C88B8AC77714E72B7ED /* DPUI-Extensions_Namespace-Extensions_VisiblePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage.debug.xcconfig"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage.debug.xcconfig"; sourceTree = "<group>"; };
-		E88B0D80FB1AF31067F63659D56D6F85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		ED010DD5F0F5537C09BE92C945D298D3 /* DPUI-e83d29ce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DPUI-e83d29ce.debug.xcconfig"; path = "../DPUI-e83d29ce/DPUI-e83d29ce.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A66A5652668D5B16B5504C77E7D2B6 /* DPUI-Extensions_Namespace-Extensions_VisiblePage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage.modulemap"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage.modulemap"; sourceTree = "<group>"; };
+		E3AEE52556AD816465A03058EF2859AB /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView-Info.plist"; sourceTree = "<group>"; };
+		E565AF66217C5FFF073C274E3617BB24 /* DPUI-ed71f1d5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DPUI-ed71f1d5.debug.xcconfig"; path = "../DPUI-ed71f1d5/DPUI-ed71f1d5.debug.xcconfig"; sourceTree = "<group>"; };
+		E6E55BC5971E1C31678745D604805E27 /* DPUI-Extensions_Namespace-Extensions_VisiblePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DPUI-Extensions_Namespace-Extensions_VisiblePage.debug.xcconfig"; path = "../DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI-Extensions_Namespace-Extensions_VisiblePage.debug.xcconfig"; sourceTree = "<group>"; };
 		F113B0A969771F463729DE73F8E614EE /* Pods-DPUIControlsExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPUIControlsExample-frameworks.sh"; sourceTree = "<group>"; };
 		F568AF7EE9D6B16C45D5823CC8D596A9 /* Pods-DPUIExtensionsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPUIExtensionsTests-umbrella.h"; sourceTree = "<group>"; };
+		F9681D1CF226F3AE5BE5D213111BA21C /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DPUI-Controls_ImageLayer-Controls_PalaceGridView-dummy.m"; sourceTree = "<group>"; };
 		F96BAF5C0FC253AC3CCAE67785FFF491 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "DPUI-Controls_ImageLayer-Controls_PalaceGridView"; path = DPUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7437AEC193B582D5F567F99D0532D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FFAC05552B17560B5DB326793053BC5C /* Pods-DPUIExtensionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPUIExtensionsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BAB41394675F4D4D82CA7906DF978F4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				85A5E6E7C52BF1AB81671A9915698A05 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1E09D8E4E850583A6F322D11921FCE05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,19 +137,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4DDCE84275557B14A476225DDDF715D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E205B8C9EF80C5778291E9F373A021A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5252E520CC3DDE2D6A0BC107193427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD250648F1228999D42206CD7CC0F56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD770200B3FCBA63FB0141343B2A9D5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3AFEF921A2CB8658DE663DB9DBD62D73 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAE9BCE89BA6C9D6B0023F18076E7994 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0FB7B339DFA0BC3006A7ADFAB7088B18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,25 +180,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0542F890C8861B3248B5397A112CFB4B /* Products */ = {
+		0A3E0436F3A486A7985E24D4E8B9C94F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F96BAF5C0FC253AC3CCAE67785FFF491 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView */,
-				845E4CFDF0F22ADBA7E86BE0D3AE4EBC /* DPUI-e83d29ce */,
-				D0A103EA93FFB6F4787065F6957688DA /* DPUI-Extensions_Namespace-Extensions_VisiblePage */,
-				67BAB243E45F70933ACDFDC7F6240EFC /* Pods-DPUIControlsExample */,
-				72D8248CBC5CCA9128FF7641B564F7D0 /* Pods-DPUIExtensionsExample */,
-				BC93BA1EB87BE6FBE3482EF3D7DB8AB6 /* Pods-DPUIExtensionsTests */,
+				26BA282A022D48A7E6929660A4FDED26 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.modulemap */,
+				F9681D1CF226F3AE5BE5D213111BA21C /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-dummy.m */,
+				E3AEE52556AD816465A03058EF2859AB /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-Info.plist */,
+				BD7A9D77315F8BEAB49D44FD7D022DC8 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-prefix.pch */,
+				75AFB012F93705169992A23C66076F61 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h */,
+				AC2657A62C7686087EED52FF16A73993 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.debug.xcconfig */,
+				50E9C4088061C573A4B766BDDEA3C965 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.release.xcconfig */,
+				44D54A877D42597ED53690BF0E40511B /* DPUI-ed71f1d5.modulemap */,
+				174FDBAA6E9114F3D953D088008561E9 /* DPUI-ed71f1d5-dummy.m */,
+				3877A06D10CC9E9D78CA59FB85CE7F49 /* DPUI-ed71f1d5-Info.plist */,
+				2ECC8866B3EAC2239ECAF9A486E744BA /* DPUI-ed71f1d5-prefix.pch */,
+				29522B73D78F65D01218921CB04DC812 /* DPUI-ed71f1d5-umbrella.h */,
+				E565AF66217C5FFF073C274E3617BB24 /* DPUI-ed71f1d5.debug.xcconfig */,
+				8DC621A6465E3D35A6D66C7E40AA94E4 /* DPUI-ed71f1d5.release.xcconfig */,
+				D7A66A5652668D5B16B5504C77E7D2B6 /* DPUI-Extensions_Namespace-Extensions_VisiblePage.modulemap */,
+				97005469AFDC464108A1B7593BA6E42E /* DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m */,
+				70418444C609A93163C58705F1349FCE /* DPUI-Extensions_Namespace-Extensions_VisiblePage-Info.plist */,
+				205C3C4775BF74A999B7541493D7D6A6 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-prefix.pch */,
+				CAD77CC0A0C9C46CD160B1CEE0919DC8 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h */,
+				E6E55BC5971E1C31678745D604805E27 /* DPUI-Extensions_Namespace-Extensions_VisiblePage.debug.xcconfig */,
+				4D3E41700980F3F371AA83273BEF9F2C /* DPUI-Extensions_Namespace-Extensions_VisiblePage.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0A856EF72FCE1F28E674A96CA0EF1E69 /* ImageLayer */ = {
-			isa = PBXGroup;
-			children = (
-				020460A128F528416CC79ED8A8B53D00 /* ImageLayer.swift */,
-			);
-			name = ImageLayer;
+			name = "Support Files";
+			path = "Pods/Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView";
 			sourceTree = "<group>";
 		};
 		10D4D3C5B27B7CB3229FA2CFFD029D07 /* Pods-DPUIControlsExample */ = {
@@ -213,21 +226,35 @@
 			path = "Target Support Files/Pods-DPUIControlsExample";
 			sourceTree = "<group>";
 		};
-		41EC1E216BAD115A7BFAEDB29F5451FD /* Namespace */ = {
+		2BBCE971260077BD74535120CB2C45AC /* ChildPage */ = {
 			isa = PBXGroup;
 			children = (
-				DAC14FB8BF29A8FB79D4836701AE127B /* Extensions.swift */,
+				79E6BD9B4F2F9A7FF238B58FCFC28565 /* ChildPage.swift */,
 			);
-			name = Namespace;
+			name = ChildPage;
 			sourceTree = "<group>";
 		};
-		421EE674D3BA4075FDA871C2E0DF816E /* Extensions */ = {
+		438E12771F5DA0188DD6CC48570B3BDF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				41EC1E216BAD115A7BFAEDB29F5451FD /* Namespace */,
-				FE29F7D5B787E6D236A65246059F4F38 /* VisiblePage */,
+				2BBCE971260077BD74535120CB2C45AC /* ChildPage */,
+				775F8263CB5E7FE1727F5E9E99071F22 /* Namespace */,
+				6D61B5BF1E24726F05015EAB732BF911 /* VisiblePage */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4F34853242866EA7C81E8FEBD939C579 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				52229F92F0ADC6D6E9EC93948C4D4322 /* DPUI.podspec */,
+				759CB66E4CA43F41479D83B6F9B8EF63 /* DPUI.xmind */,
+				FA7437AEC193B582D5F567F99D0532D4 /* LICENSE */,
+				0C18A96821079A1BD8EBE5E9CC986BB3 /* README.md */,
+				6CF2D73DD25A5E4782EC75EBA6984EF1 /* UIKit呈现页面的方式.xmind */,
+				4B8730103563A2C5E628007267D19EC6 /* VisiblePage.xmind */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -238,28 +265,56 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		65D185DFC7693449F4228DB1E627E84C /* PalaceGridView */ = {
+		57A06E9056D3102AE869247778CA05CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				317C32F6B27EC8EB074331D0E4871BAC /* PalaceGridView.swift */,
+				F96BAF5C0FC253AC3CCAE67785FFF491 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView */,
+				44290819BED82BFFA8855595AEBBDB51 /* DPUI-ed71f1d5 */,
+				D0A103EA93FFB6F4787065F6957688DA /* DPUI-Extensions_Namespace-Extensions_VisiblePage */,
+				67BAB243E45F70933ACDFDC7F6240EFC /* Pods-DPUIControlsExample */,
+				72D8248CBC5CCA9128FF7641B564F7D0 /* Pods-DPUIExtensionsExample */,
+				BC93BA1EB87BE6FBE3482EF3D7DB8AB6 /* Pods-DPUIExtensionsTests */,
 			);
-			name = PalaceGridView;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		9F5CDDC39FAFFE2F8296480F72A85C70 /* Pod */ = {
+		6D61B5BF1E24726F05015EAB732BF911 /* VisiblePage */ = {
 			isa = PBXGroup;
 			children = (
-				DF2E20D25A5F7AC761FD1AD39EB91036 /* DPUI.podspec */,
-				E88B0D80FB1AF31067F63659D56D6F85 /* LICENSE */,
-				AACF23643D12E2EF26E19D964F28E20D /* README.md */,
+				39E0A7A3041DFF4904C1901335FFD4CD /* VisiblePage.swift */,
 			);
-			name = Pod;
+			name = VisiblePage;
+			sourceTree = "<group>";
+		};
+		7083E01173390F315235E6A36ED32E9F /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				7F33371437D5577DEA20B98A053C38DC /* ImageLayer */,
+				E0C720B8F193CC919976CB7420D3466D /* PalaceGridView */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		775F8263CB5E7FE1727F5E9E99071F22 /* Namespace */ = {
+			isa = PBXGroup;
+			children = (
+				D1F782119E63523375E8E4D85B384E28 /* Extensions.swift */,
+			);
+			name = Namespace;
+			sourceTree = "<group>";
+		};
+		7F33371437D5577DEA20B98A053C38DC /* ImageLayer */ = {
+			isa = PBXGroup;
+			children = (
+				4728639E37768154B459347317069CBE /* ImageLayer.swift */,
+			);
+			name = ImageLayer;
 			sourceTree = "<group>";
 		};
 		A7736256FB720B48CD2FF2AE3A53CB82 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D74291B88D62AF822D3E069EE4D5CE6D /* DPUI */,
+				D9D9AB79B2A39132ED944E70A3550362 /* DPUI */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -281,22 +336,13 @@
 			path = "Target Support Files/Pods-DPUIExtensionsTests";
 			sourceTree = "<group>";
 		};
-		CB4FBF9D0E1E17A7984B69EAACC7CAA0 /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-				0A856EF72FCE1F28E674A96CA0EF1E69 /* ImageLayer */,
-				65D185DFC7693449F4228DB1E627E84C /* PalaceGridView */,
-			);
-			name = Controls;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				A7736256FB720B48CD2FF2AE3A53CB82 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0542F890C8861B3248B5397A112CFB4B /* Products */,
+				57A06E9056D3102AE869247778CA05CD /* Products */,
 				F0D7558F6482B702AC12C93D723E9461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -309,16 +355,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D74291B88D62AF822D3E069EE4D5CE6D /* DPUI */ = {
+		D9D9AB79B2A39132ED944E70A3550362 /* DPUI */ = {
 			isa = PBXGroup;
 			children = (
-				CB4FBF9D0E1E17A7984B69EAACC7CAA0 /* Controls */,
-				421EE674D3BA4075FDA871C2E0DF816E /* Extensions */,
-				9F5CDDC39FAFFE2F8296480F72A85C70 /* Pod */,
-				F41EC59A09A9FCAFF4435A2C66C01A06 /* Support Files */,
+				7083E01173390F315235E6A36ED32E9F /* Controls */,
+				438E12771F5DA0188DD6CC48570B3BDF /* Extensions */,
+				4F34853242866EA7C81E8FEBD939C579 /* Pod */,
+				0A3E0436F3A486A7985E24D4E8B9C94F /* Support Files */,
 			);
 			name = DPUI;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		E0C720B8F193CC919976CB7420D3466D /* PalaceGridView */ = {
+			isa = PBXGroup;
+			children = (
+				163C0A76F8B718303575643E6C0A86EA /* PalaceGridView.swift */,
+			);
+			name = PalaceGridView;
 			sourceTree = "<group>";
 		};
 		F0D7558F6482B702AC12C93D723E9461 /* Targets Support Files */ = {
@@ -329,35 +383,6 @@
 				ACD3D613396A5557A72B79606280974A /* Pods-DPUIExtensionsTests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F41EC59A09A9FCAFF4435A2C66C01A06 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8EAB784BA060BBF5605C5165545D6C19 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.modulemap */,
-				DD9090AA073E31DE527DC5452E99C997 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-dummy.m */,
-				E2675525332B36798D7EA4BC143A54FE /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-Info.plist */,
-				C0E48C26A08749634862B805A0B362C8 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-prefix.pch */,
-				E0B648ED84B451E4A5E465B815A71516 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView-umbrella.h */,
-				6C1DAAB5708516EAC01823399599E993 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.debug.xcconfig */,
-				0CE90EA0BDB536038547B6F2BF671D5A /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.release.xcconfig */,
-				4A0B45627E20E628F43E57D92F1F4F28 /* DPUI-e83d29ce.modulemap */,
-				4C30B9B964D74B3934658106E6582435 /* DPUI-e83d29ce-dummy.m */,
-				C3870F0D73FC3309BAD83AD6A62E7890 /* DPUI-e83d29ce-Info.plist */,
-				44D2A547235F69165D4EF813B7C332D6 /* DPUI-e83d29ce-prefix.pch */,
-				2B11F3C01ABAF5DC0F3C71CD394489BC /* DPUI-e83d29ce-umbrella.h */,
-				ED010DD5F0F5537C09BE92C945D298D3 /* DPUI-e83d29ce.debug.xcconfig */,
-				ADE0D1AB27469639F176559F5F05D06B /* DPUI-e83d29ce.release.xcconfig */,
-				2778AFDD1F478E8F18C7607192CCEABA /* DPUI-Extensions_Namespace-Extensions_VisiblePage.modulemap */,
-				0285EDF2277F9E6D9F2E16A0BD3DCCCC /* DPUI-Extensions_Namespace-Extensions_VisiblePage-dummy.m */,
-				C5607AD076F291C74D4235CF0FE4B5B8 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-Info.plist */,
-				727993CB290E4FF47D771F447970F190 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-prefix.pch */,
-				D110FA6A4419E4BFB78073F6D13DB474 /* DPUI-Extensions_Namespace-Extensions_VisiblePage-umbrella.h */,
-				E65F6405416C8C88B8AC77714E72B7ED /* DPUI-Extensions_Namespace-Extensions_VisiblePage.debug.xcconfig */,
-				4CEC026EEE08A473858A759A39C5E81C /* DPUI-Extensions_Namespace-Extensions_VisiblePage.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView";
 			sourceTree = "<group>";
 		};
 		F6DC6746F34DF7DB0478D57C6F72EEFB /* Pods-DPUIExtensionsExample */ = {
@@ -377,22 +402,14 @@
 			path = "Target Support Files/Pods-DPUIExtensionsExample";
 			sourceTree = "<group>";
 		};
-		FE29F7D5B787E6D236A65246059F4F38 /* VisiblePage */ = {
-			isa = PBXGroup;
-			children = (
-				C98D949DB87DA3317DFBB7F87E060A9E /* VisiblePage.swift */,
-			);
-			name = VisiblePage;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4B8D3245C7729E72D479B999E94E827C /* Headers */ = {
+		3ACECCCE910D71CCE5C13644A245EB37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8630E5BB1B9B55C2BFBAD7F4A9656976 /* DPUI-e83d29ce-umbrella.h in Headers */,
+				D04ACB319657B9474155D98187946970 /* DPUI-ed71f1d5-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +445,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9711CB02AF00B19CBB7F9C32BD0B113 /* Headers */ = {
+		ED03610D2B66EF3B0A2AA09E3D68E92D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95F1D39229D4FC5258EA67F7B0EE7D68 /* Pods-DPUIExtensionsTests-umbrella.h in Headers */,
+				B3CC16EBD93A7AAF6414E6C03E10AD7D /* Pods-DPUIExtensionsTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +468,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FB78D994412F3292A83B9C95BB56C481 /* PBXTargetDependency */,
+				7708CBAE0113F10B1B883C3CE6D27A28 /* PBXTargetDependency */,
 			);
 			name = "Pods-DPUIControlsExample";
 			productName = Pods_DPUIControlsExample;
@@ -488,7 +505,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7860016658D29ED774440C39F1BFD235 /* PBXTargetDependency */,
+				B78E8E03673261E0DA6E7C678353F74C /* PBXTargetDependency */,
 			);
 			name = "Pods-DPUIExtensionsExample";
 			productName = Pods_DPUIExtensionsExample;
@@ -497,39 +514,39 @@
 		};
 		3FF096AD959FF9C94C9FFA287A34C35F /* Pods-DPUIExtensionsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22F88E34E9315E1ADBB187F631CE64D0 /* Build configuration list for PBXNativeTarget "Pods-DPUIExtensionsTests" */;
+			buildConfigurationList = 7A008FCFDF5E20134C3DCDF6912BDCE9 /* Build configuration list for PBXNativeTarget "Pods-DPUIExtensionsTests" */;
 			buildPhases = (
-				F9711CB02AF00B19CBB7F9C32BD0B113 /* Headers */,
-				0C63B4F9C0C5F81BB3C4812AB889B76A /* Sources */,
-				1BAB41394675F4D4D82CA7906DF978F4 /* Frameworks */,
-				C6B3B6114B73E5E45CB5BE3C8E9F7992 /* Resources */,
+				ED03610D2B66EF3B0A2AA09E3D68E92D /* Headers */,
+				C61F8B676C707AA6E984FD70D73429FA /* Sources */,
+				5D5252E520CC3DDE2D6A0BC107193427 /* Frameworks */,
+				21CD78439675544BD807B7A4790FD468 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				27D86BB82E1E761533E1C1FBACA9CED1 /* PBXTargetDependency */,
+				6FBCE9DDA91745BC74DA0B8F112188E2 /* PBXTargetDependency */,
 			);
 			name = "Pods-DPUIExtensionsTests";
 			productName = Pods_DPUIExtensionsTests;
 			productReference = BC93BA1EB87BE6FBE3482EF3D7DB8AB6 /* Pods-DPUIExtensionsTests */;
 			productType = "com.apple.product-type.framework";
 		};
-		86B77A5B3D12124FAED1B0C773BBDBCC /* DPUI-e83d29ce */ = {
+		F2B514085F797854D5D5E6899D3D9EE6 /* DPUI-ed71f1d5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 170A9BF034C32CA3C27866F6B9C39AF1 /* Build configuration list for PBXNativeTarget "DPUI-e83d29ce" */;
+			buildConfigurationList = 20F773C508D6537F624F25CF97DA3F83 /* Build configuration list for PBXNativeTarget "DPUI-ed71f1d5" */;
 			buildPhases = (
-				4B8D3245C7729E72D479B999E94E827C /* Headers */,
-				7162283088A2849B58BD765FB567673B /* Sources */,
-				BAE9BCE89BA6C9D6B0023F18076E7994 /* Frameworks */,
-				26DCCF7A6BA460D8E57205FFC64935F3 /* Resources */,
+				3ACECCCE910D71CCE5C13644A245EB37 /* Headers */,
+				954A8842F06C8E31DED5042676CA7AE6 /* Sources */,
+				4DDCE84275557B14A476225DDDF715D6 /* Frameworks */,
+				3126B5117751855DEC00AC2360F8D227 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "DPUI-e83d29ce";
+			name = "DPUI-ed71f1d5";
 			productName = DPUI;
-			productReference = 845E4CFDF0F22ADBA7E86BE0D3AE4EBC /* DPUI-e83d29ce */;
+			productReference = 44290819BED82BFFA8855595AEBBDB51 /* DPUI-ed71f1d5 */;
 			productType = "com.apple.product-type.framework";
 		};
 		F9FEFCF9CDFCA1088B68F70D74A112AB /* DPUI-Controls_ImageLayer-Controls_PalaceGridView */ = {
@@ -556,8 +573,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -568,12 +585,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0542F890C8861B3248B5397A112CFB4B /* Products */;
+			productRefGroup = 57A06E9056D3102AE869247778CA05CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F9FEFCF9CDFCA1088B68F70D74A112AB /* DPUI-Controls_ImageLayer-Controls_PalaceGridView */,
-				86B77A5B3D12124FAED1B0C773BBDBCC /* DPUI-e83d29ce */,
+				F2B514085F797854D5D5E6899D3D9EE6 /* DPUI-ed71f1d5 */,
 				2B8C65BEC3DAE5F119C520023C4794A4 /* DPUI-Extensions_Namespace-Extensions_VisiblePage */,
 				01F949CBBE77F2B0A2ED2AC8DA56874F /* Pods-DPUIControlsExample */,
 				2DCC9596F9365407FC6DC27B40C2C027 /* Pods-DPUIExtensionsExample */,
@@ -583,6 +600,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		21CD78439675544BD807B7A4790FD468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22F8C5272276C62C6E74E43A71C91A3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -590,7 +614,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26DCCF7A6BA460D8E57205FFC64935F3 /* Resources */ = {
+		3126B5117751855DEC00AC2360F8D227 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -611,13 +635,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6B3B6114B73E5E45CB5BE3C8E9F7992 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C9C1F5F10995BA7D8E7E55D3D3FDC2B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,21 +645,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C63B4F9C0C5F81BB3C4812AB889B76A /* Sources */ = {
+		954A8842F06C8E31DED5042676CA7AE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4471C6F296764FEDA70FD802EDC79F6 /* Pods-DPUIExtensionsTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7162283088A2849B58BD765FB567673B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58A0C80AEA728089EA5585858A26D5EB /* DPUI-e83d29ce-dummy.m in Sources */,
-				221FF96A4DDBC970E09D29514165AE97 /* Extensions.swift in Sources */,
-				854746AF8142FBFCF3D3B4FED328C428 /* VisiblePage.swift in Sources */,
+				ED836ACA173F29E737B7544BBECB94AE /* ChildPage.swift in Sources */,
+				71C937AC46E6A82977FDCC15FF380F04 /* DPUI-ed71f1d5-dummy.m in Sources */,
+				56761FD935211F765AF99607D3E0B9DC /* Extensions.swift in Sources */,
+				3EED7158464B3A2163B6CDE1CBEAF6ED /* VisiblePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +682,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C61F8B676C707AA6E984FD70D73429FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529C2227C3CB17D2DA50CB39586D4A72 /* Pods-DPUIExtensionsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFFCD6E0927C905669966FCD89067041 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -685,23 +703,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27D86BB82E1E761533E1C1FBACA9CED1 /* PBXTargetDependency */ = {
+		6FBCE9DDA91745BC74DA0B8F112188E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "DPUI-e83d29ce";
-			target = 86B77A5B3D12124FAED1B0C773BBDBCC /* DPUI-e83d29ce */;
-			targetProxy = 52C40E6D1261279B8684A9A0CB70F455 /* PBXContainerItemProxy */;
+			name = "DPUI-ed71f1d5";
+			target = F2B514085F797854D5D5E6899D3D9EE6 /* DPUI-ed71f1d5 */;
+			targetProxy = 5359B21AFB9521E12AC48DA75E662FE8 /* PBXContainerItemProxy */;
 		};
-		7860016658D29ED774440C39F1BFD235 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DPUI-Extensions_Namespace-Extensions_VisiblePage";
-			target = 2B8C65BEC3DAE5F119C520023C4794A4 /* DPUI-Extensions_Namespace-Extensions_VisiblePage */;
-			targetProxy = EC620E3A185B81C05A20BCFDB303D61F /* PBXContainerItemProxy */;
-		};
-		FB78D994412F3292A83B9C95BB56C481 /* PBXTargetDependency */ = {
+		7708CBAE0113F10B1B883C3CE6D27A28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DPUI-Controls_ImageLayer-Controls_PalaceGridView";
 			target = F9FEFCF9CDFCA1088B68F70D74A112AB /* DPUI-Controls_ImageLayer-Controls_PalaceGridView */;
-			targetProxy = C341E2166E2122B05B9D8E56635D7B3C /* PBXContainerItemProxy */;
+			targetProxy = 21EBAE432D3F5E377CAF0FE9EC8B3297 /* PBXContainerItemProxy */;
+		};
+		B78E8E03673261E0DA6E7C678353F74C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DPUI-Extensions_Namespace-Extensions_VisiblePage";
+			target = 2B8C65BEC3DAE5F119C520023C4794A4 /* DPUI-Extensions_Namespace-Extensions_VisiblePage */;
+			targetProxy = 6AAA9D252F57C7CF1F1AA6240B77CDA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -737,42 +755,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		421DBD077CB393891C7307238EEB37AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CE90EA0BDB536038547B6F2BF671D5A /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView.modulemap";
-				PRODUCT_MODULE_NAME = DPUI;
-				PRODUCT_NAME = DPUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -855,9 +837,45 @@
 			};
 			name = Debug;
 		};
-		886B7F9FD1E807A4067F40F31F3DFD52 /* Release */ = {
+		73BBD60DC965F84B529CDF28495B3184 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFAC05552B17560B5DB326793053BC5C /* Pods-DPUIExtensionsTests.release.xcconfig */;
+			baseConfigurationReference = 50E9C4088061C573A4B766BDDEA3C965 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView.modulemap";
+				PRODUCT_MODULE_NAME = DPUI;
+				PRODUCT_NAME = DPUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74832AA10BC05A834B0C17E81E36355A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8166A7C382B5A002AB56B161121F4805 /* Pods-DPUIExtensionsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -887,11 +905,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1021,9 +1038,9 @@
 			};
 			name = Release;
 		};
-		A3773CFA51F34348B8760CBBE5EC61CC /* Release */ = {
+		ABEE0E2AC9148DB6740343A40299020A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADE0D1AB27469639F176559F5F05D06B /* DPUI-e83d29ce.release.xcconfig */;
+			baseConfigurationReference = 8DC621A6465E3D35A6D66C7E40AA94E4 /* DPUI-ed71f1d5.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1034,8 +1051,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DPUI-e83d29ce/DPUI-e83d29ce-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DPUI-e83d29ce/DPUI-e83d29ce-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DPUI-ed71f1d5/DPUI-ed71f1d5-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPUI-ed71f1d5/DPUI-ed71f1d5-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1043,13 +1060,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/DPUI-e83d29ce/DPUI-e83d29ce.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DPUI-ed71f1d5/DPUI-ed71f1d5.modulemap";
 				PRODUCT_MODULE_NAME = DPUI;
 				PRODUCT_NAME = DPUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
+				SWIFT_VERSION = 5.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1057,44 +1074,9 @@
 			};
 			name = Release;
 		};
-		A93D36C9C9F7616EEE9A5AAE6FA0158A /* Debug */ = {
+		AD2802662FDA11396751118B13523829 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED010DD5F0F5537C09BE92C945D298D3 /* DPUI-e83d29ce.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DPUI-e83d29ce/DPUI-e83d29ce-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DPUI-e83d29ce/DPUI-e83d29ce-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DPUI-e83d29ce/DPUI-e83d29ce.modulemap";
-				PRODUCT_MODULE_NAME = DPUI;
-				PRODUCT_NAME = DPUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0A0B798881480863073992697EC5643 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E65F6405416C8C88B8AC77714E72B7ED /* DPUI-Extensions_Namespace-Extensions_VisiblePage.debug.xcconfig */;
+			baseConfigurationReference = 4D3E41700980F3F371AA83273BEF9F2C /* DPUI-Extensions_Namespace-Extensions_VisiblePage.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1120,16 +1102,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
+				SWIFT_VERSION = 5.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		CD87A3B4E5614D1C9FD41C867ED7B169 /* Release */ = {
+		C48B65E43BC9D373507B31DE04FBE285 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CEC026EEE08A473858A759A39C5E81C /* DPUI-Extensions_Namespace-Extensions_VisiblePage.release.xcconfig */;
+			baseConfigurationReference = E6E55BC5971E1C31678745D604805E27 /* DPUI-Extensions_Namespace-Extensions_VisiblePage.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1155,17 +1138,16 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
+				SWIFT_VERSION = 5.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		E2CFC301F06BB2D7F1904820A5F39C24 /* Debug */ = {
+		D9F3C5130B8C6B5C36009F8A5536FC7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8166A7C382B5A002AB56B161121F4805 /* Pods-DPUIExtensionsTests.debug.xcconfig */;
+			baseConfigurationReference = FFAC05552B17560B5DB326793053BC5C /* Pods-DPUIExtensionsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1194,6 +1176,77 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4A6175C28844500E09F12C9334C056B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E565AF66217C5FFF073C274E3617BB24 /* DPUI-ed71f1d5.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DPUI-ed71f1d5/DPUI-ed71f1d5-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPUI-ed71f1d5/DPUI-ed71f1d5-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DPUI-ed71f1d5/DPUI-ed71f1d5.modulemap";
+				PRODUCT_MODULE_NAME = DPUI;
+				PRODUCT_NAME = DPUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB703E077EB6707F5022B6D47C35D477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2657A62C7686087EED52FF16A73993 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView.modulemap";
+				PRODUCT_MODULE_NAME = DPUI;
+				PRODUCT_NAME = DPUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1237,53 +1290,9 @@
 			};
 			name = Debug;
 		};
-		F0C8C7644F3FA944057071BD7D496988 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C1DAAB5708516EAC01823399599E993 /* DPUI-Controls_ImageLayer-Controls_PalaceGridView.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DPUI-Controls_ImageLayer-Controls_PalaceGridView/DPUI-Controls_ImageLayer-Controls_PalaceGridView.modulemap";
-				PRODUCT_MODULE_NAME = DPUI;
-				PRODUCT_NAME = DPUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		170A9BF034C32CA3C27866F6B9C39AF1 /* Build configuration list for PBXNativeTarget "DPUI-e83d29ce" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A93D36C9C9F7616EEE9A5AAE6FA0158A /* Debug */,
-				A3773CFA51F34348B8760CBBE5EC61CC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1A6C545887D0A62BF05C6FEA56ADD1AD /* Build configuration list for PBXNativeTarget "Pods-DPUIExtensionsExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1293,11 +1302,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22F88E34E9315E1ADBB187F631CE64D0 /* Build configuration list for PBXNativeTarget "Pods-DPUIExtensionsTests" */ = {
+		20F773C508D6537F624F25CF97DA3F83 /* Build configuration list for PBXNativeTarget "DPUI-ed71f1d5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2CFC301F06BB2D7F1904820A5F39C24 /* Debug */,
-				886B7F9FD1E807A4067F40F31F3DFD52 /* Release */,
+				E4A6175C28844500E09F12C9334C056B /* Debug */,
+				ABEE0E2AC9148DB6740343A40299020A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1314,8 +1323,17 @@
 		5E9AEEA1A822B30C2FD639603D9A539E /* Build configuration list for PBXNativeTarget "DPUI-Controls_ImageLayer-Controls_PalaceGridView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0C8C7644F3FA944057071BD7D496988 /* Debug */,
-				421DBD077CB393891C7307238EEB37AA /* Release */,
+				EB703E077EB6707F5022B6D47C35D477 /* Debug */,
+				73BBD60DC965F84B529CDF28495B3184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A008FCFDF5E20134C3DCDF6912BDCE9 /* Build configuration list for PBXNativeTarget "Pods-DPUIExtensionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74832AA10BC05A834B0C17E81E36355A /* Debug */,
+				D9F3C5130B8C6B5C36009F8A5536FC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1323,8 +1341,8 @@
 		CFDEA08276634E26E92C603D4E0CDBD5 /* Build configuration list for PBXNativeTarget "DPUI-Extensions_Namespace-Extensions_VisiblePage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0A0B798881480863073992697EC5643 /* Debug */,
-				CD87A3B4E5614D1C9FD41C867ED7B169 /* Release */,
+				C48B65E43BC9D373507B31DE04FBE285 /* Debug */,
+				AD2802662FDA11396751118B13523829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

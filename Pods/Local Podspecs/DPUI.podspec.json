@@ -1,6 +1,6 @@
 {
   "name": "DPUI",
-  "version": "1.0",
+  "version": "1.1.1",
   "summary": "总结的UI开发套件，主要包含控件、扩展、工具",
   "description": "总结的UI开发套件，主要包含控件、扩展、工具，用于积累代码，提高开发效率",
   "homepage": "https://github.com/DancewithPeng/DPUI.git",
@@ -14,10 +14,10 @@
   "platforms": {
     "ios": "13.0"
   },
-  "swift_versions": "5.5",
+  "swift_versions": "5.7",
   "source": {
     "git": "https://github.com/DancewithPeng/DPUI.git",
-    "tag": "1.0"
+    "tag": "1.1.1"
   },
   "source_files": "DPUI/DPUI.h",
   "module_map": false,
@@ -32,6 +32,15 @@
         {
           "name": "VisiblePage",
           "source_files": "DPUI/Sources/Extensions/VisiblePage.swift",
+          "dependencies": {
+            "DPUI/Extensions/Namespace": [
+
+            ]
+          }
+        },
+        {
+          "name": "ChildPage",
+          "source_files": "DPUI/Sources/Extensions/ChildPage.swift",
           "dependencies": {
             "DPUI/Extensions/Namespace": [
 
@@ -59,5 +68,5 @@
       ]
     }
   ],
-  "swift_version": "5.5"
+  "swift_version": "5.7"
 }
