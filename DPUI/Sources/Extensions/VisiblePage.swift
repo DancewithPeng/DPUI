@@ -146,6 +146,12 @@ extension UIApplication {
         dpui.visibleWindow
     }
     
+    /// 主窗口
+    @objc(dpui_keyWindow)
+    public var ___objc_keyWindow: UIWindow? {
+        dpui.keyWindow
+    }
+    
     /// 可见页面
     @objc(dpui_visiblePage)
     public var ___objc_visiblePage: UIViewController? {
