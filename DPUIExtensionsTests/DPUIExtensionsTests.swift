@@ -31,6 +31,11 @@ class DPUIExtensionsTests: XCTestCase {
         let p = Person(name: "张三", age: 18)
         XCTAssertEqual(p.dpui.hiString(), "i am \(p.name), \(p.age) years old")
     }
+    
+    func testHexColor() throws {
+        let color = UIColor.cyan
+        print(color.dpui.hexText)
+    }
 }
 
 struct Person: Equatable {

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "DPUI"
-  spec.version = "1.1.1"
+  spec.version = "1.1.2"
   spec.summary = "总结的UI开发套件，主要包含控件、扩展、工具"
   spec.description = <<-DESC
                          总结的UI开发套件，主要包含控件、扩展、工具，用于积累代码，提高开发效率
@@ -29,6 +29,12 @@ Pod::Spec.new do |spec|
       cs.source_files = "DPUI/Sources/Extensions/ChildPage.swift"
 
       cs.dependency "DPUI/Extensions/Namespace"
+    end
+
+    es.subspec "HexColor" do |hs|
+      hs.source_files = "DPUI/Sources/Extensions/HexColor.swift"
+
+      hs.dependency "DPUI/Extensions/Namespace"
     end
   end
 

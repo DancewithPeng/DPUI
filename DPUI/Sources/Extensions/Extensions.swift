@@ -39,3 +39,4 @@ extension Extensions: Hashable where Base: Hashable {}
 extension UIApplication: ExtensionsProvider {}
 extension UIViewController: ExtensionsProvider {}
 extension UIView: ExtensionsProvider {}
+//extension UIColor: ExtensionsProvider {}
