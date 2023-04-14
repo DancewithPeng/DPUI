@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "DPUI"
-  spec.version = "1.1.2"
+  spec.version = "1.2.0"
   spec.summary = "总结的UI开发套件，主要包含控件、扩展、工具"
   spec.description = <<-DESC
                          总结的UI开发套件，主要包含控件、扩展、工具，用于积累代码，提高开发效率
@@ -35,6 +35,12 @@ Pod::Spec.new do |spec|
       hs.source_files = "DPUI/Sources/Extensions/HexColor.swift"
 
       hs.dependency "DPUI/Extensions/Namespace"
+    end
+
+    es.subspec "ConvenientGesture" do |cg|
+      cg.source_files = "DPUI/Sources/Extensions/ConvenientGesture.swift"
+
+      cg.dependency "DPUI/Extensions/Namespace"
     end
   end
 

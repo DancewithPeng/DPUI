@@ -1,22 +1,29 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '13.0'
+platform :ios, "13.0"
 
-target 'DPUIExtensionsExample' do
-    use_frameworks!
+target "DPUIExtensionsExample" do
+  use_frameworks!
 
-    pod 'DPUI/Extensions/Namespace', :path => './'
-    pod 'DPUI/Extensions/VisiblePage', :path => './'
+  pod "DPUI/Extensions/Namespace", :path => "./"
+  pod "DPUI/Extensions/VisiblePage", :path => "./"
 end
 
-target 'DPUIExtensionsTests' do
-    use_frameworks!
-    
-    pod 'DPUI/Extensions', :path => './'
+target "DPUIExtensionsObjCExample" do
+  use_frameworks!
+
+  pod "DPUI/Extensions/Namespace", :path => "./"
+  pod "DPUI/Extensions/ConvenientGesture", :path => "./"
 end
 
-target 'DPUIControlsExample' do
-    use_frameworks!
-    
-    pod 'DPUI/Controls/ImageLayer', :path => './'
-    pod 'DPUI/Controls/PalaceGridView', :path => './'
+target "DPUIExtensionsTests" do
+  use_frameworks!
+
+  pod "DPUI/Extensions", :path => "./"
+end
+
+target "DPUIControlsExample" do
+  use_frameworks!
+
+  pod "DPUI/Controls/ImageLayer", :path => "./"
+  pod "DPUI/Controls/PalaceGridView", :path => "./"
 end

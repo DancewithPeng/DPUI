@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Long Press"; ObjectID = "5z7-hu-ka4"; */
+"5z7-hu-ka4.text" = "Long Press";
+
+/* Class = "UILabel"; text = "Pan"; ObjectID = "6e3-fH-bPk"; */
+"6e3-fH-bPk.text" = "Pan";
+
+/* Class = "UILabel"; text = "Tap"; ObjectID = "T9h-5y-zvT"; */
+"T9h-5y-zvT.text" = "Tap";
+
+/* Class = "UINavigationItem"; title = "Convenient Gesture"; ObjectID = "lDL-g7-Jh0"; */
+"lDL-g7-Jh0.title" = "Convenient Gesture";
+
+/* Class = "UILabel"; text = "Convenient Gesture"; ObjectID = "oLK-17-ra7"; */
+"oLK-17-ra7.text" = "Convenient Gesture";
+
+/* Class = "UINavigationItem"; title = "DPUI"; ObjectID = "t50-05-XCy"; */
+"t50-05-XCy.title" = "DPUI";

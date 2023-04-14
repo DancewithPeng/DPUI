@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  DPUI
+
+  Created by 张鹏 on 2023/4/14.
+  
+*/
+"OK" = "好的";
+"Tips" = "提示";
+"Tap Message" = "触发了点击手势";
+"Long Press Message" = "触发了长按手势";
+"Pan Message" = "触发了拖拽手势";
+
