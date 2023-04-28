@@ -6,6 +6,7 @@ target "DPUIExtensionsExample" do
 
   pod "DPUI/Extensions/Namespace", :path => "./"
   pod "DPUI/Extensions/VisiblePage", :path => "./"
+  pod "DPUI/Extensions/RandomColor", :path => "./"
 end
 
 target "DPUIExtensionsObjCExample" do
@@ -26,4 +27,7 @@ target "DPUIControlsExample" do
 
   pod "DPUI/Controls/ImageLayer", :path => "./"
   pod "DPUI/Controls/PalaceGridView", :path => "./"
+  pod "DPUI/Controls/FlexibleNavigationBar", :path => "./"
+
+  pod "DPUI/Extensions/RandomColor", :path => "./"
 end

@@ -1,22 +1,35 @@
 PODS:
-  - DPUI/Controls/ImageLayer (1.1.1)
-  - DPUI/Controls/PalaceGridView (1.1.1):
+  - DPUI/Controls/FlexibleNavigationBar (1.3.0)
+  - DPUI/Controls/ImageLayer (1.3.0)
+  - DPUI/Controls/PalaceGridView (1.3.0):
     - DPUI/Controls/ImageLayer
-  - DPUI/Extensions (1.1.1):
-    - DPUI/Extensions/ChildPage (= 1.1.1)
-    - DPUI/Extensions/Namespace (= 1.1.1)
-    - DPUI/Extensions/VisiblePage (= 1.1.1)
-  - DPUI/Extensions/ChildPage (1.1.1):
+  - DPUI/Extensions (1.3.0):
+    - DPUI/Extensions/ChildPage (= 1.3.0)
+    - DPUI/Extensions/ConvenientGesture (= 1.3.0)
+    - DPUI/Extensions/HexColor (= 1.3.0)
+    - DPUI/Extensions/Namespace (= 1.3.0)
+    - DPUI/Extensions/RandomColor (= 1.3.0)
+    - DPUI/Extensions/VisiblePage (= 1.3.0)
+  - DPUI/Extensions/ChildPage (1.3.0):
     - DPUI/Extensions/Namespace
-  - DPUI/Extensions/Namespace (1.1.1)
-  - DPUI/Extensions/VisiblePage (1.1.1):
+  - DPUI/Extensions/ConvenientGesture (1.3.0):
+    - DPUI/Extensions/Namespace
+  - DPUI/Extensions/HexColor (1.3.0):
+    - DPUI/Extensions/Namespace
+  - DPUI/Extensions/Namespace (1.3.0)
+  - DPUI/Extensions/RandomColor (1.3.0):
+    - DPUI/Extensions/Namespace
+  - DPUI/Extensions/VisiblePage (1.3.0):
     - DPUI/Extensions/Namespace
 
 DEPENDENCIES:
+  - DPUI/Controls/FlexibleNavigationBar (from `./`)
   - DPUI/Controls/ImageLayer (from `./`)
   - DPUI/Controls/PalaceGridView (from `./`)
   - DPUI/Extensions (from `./`)
+  - DPUI/Extensions/ConvenientGesture (from `./`)
   - DPUI/Extensions/Namespace (from `./`)
+  - DPUI/Extensions/RandomColor (from `./`)
   - DPUI/Extensions/VisiblePage (from `./`)
 
 EXTERNAL SOURCES:
@@ -24,8 +37,8 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  DPUI: 404fa7919eb0827942381de9b3f94f206829b0a4
+  DPUI: d804a2ec05285424d114a138eff06ca170929112
 
-PODFILE CHECKSUM: 1608bff7c9baf0b9348ee02926bebffbfc5a1e5d
+PODFILE CHECKSUM: 7521fdf838493ddb79fed6deaa54c43758d3176b
 
 COCOAPODS: 1.11.3

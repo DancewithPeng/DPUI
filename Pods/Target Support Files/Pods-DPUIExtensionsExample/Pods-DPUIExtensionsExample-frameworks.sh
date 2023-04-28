@@ -176,10 +176,10 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DPUI-c9db737b/DPUI.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/DPUI-Extensions_Namespace-Extensions_VisiblePage/DPUI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DPUI-c9db737b/DPUI.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

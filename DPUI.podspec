@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "DPUI"
-  spec.version = "1.2.0"
+  spec.version = "1.3.0"
   spec.summary = "总结的UI开发套件，主要包含控件、扩展、工具"
   spec.description = <<-DESC
                          总结的UI开发套件，主要包含控件、扩展、工具，用于积累代码，提高开发效率
@@ -37,6 +37,12 @@ Pod::Spec.new do |spec|
       hs.dependency "DPUI/Extensions/Namespace"
     end
 
+    es.subspec "RandomColor" do |hs|
+      hs.source_files = "DPUI/Sources/Extensions/RandomColor.swift"
+
+      hs.dependency "DPUI/Extensions/Namespace"
+    end
+
     es.subspec "ConvenientGesture" do |cg|
       cg.source_files = "DPUI/Sources/Extensions/ConvenientGesture.swift"
 
@@ -53,6 +59,12 @@ Pod::Spec.new do |spec|
       ps.source_files = "DPUI/Sources/Controls/PalaceGridView.swift"
 
       ps.dependency "DPUI/Controls/ImageLayer"
+    end
+
+    cs.subspec "FlexibleNavigationBar" do |fnb|
+      fnb.source_files = "DPUI/Sources/Controls/FlexibleNavigationBar.swift"
+
+      fnb.dependency "DPUI/Extensions/Namespace"
     end
   end
 
