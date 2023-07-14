@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_DPUI_Extensions_ConvenientGesture_Extensions_Namespace : NSObject
+@end
+@implementation PodsDummy_DPUI_Extensions_ConvenientGesture_Extensions_Namespace
+@end

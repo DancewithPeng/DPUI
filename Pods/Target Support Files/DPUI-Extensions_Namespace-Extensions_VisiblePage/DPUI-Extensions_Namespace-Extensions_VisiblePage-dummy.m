@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_DPUI_Extensions_Namespace_Extensions_VisiblePage : NSObject
-@end
-@implementation PodsDummy_DPUI_Extensions_Namespace_Extensions_VisiblePage
-@end

@@ -1,0 +1,6 @@
+framework module Pods_DPUIExtensionsObjCExample {
+  umbrella header "Pods-DPUIExtensionsObjCExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
